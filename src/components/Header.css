@@ -1,0 +1,16 @@
+header {
+  background-color: #2941ab;
+  color: #43e57d;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 25px;
+}
