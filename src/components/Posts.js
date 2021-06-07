@@ -17,22 +17,19 @@ const Posts = () => {
         fetchData();
     },[]);
 
-
+    const removePost = _id => {
+        const removedArr = [...posts].filter(post => post._id !== _id);
+        setPosts(removedArr);
+        axios.delete(_id);
+      };
 
     return (
         <div>
-            {
-                posts.map(p => (
-                    <PostStory
-                        _id={p._id}
-                        story_title={p.story_title}
-                        title={p.title}
-                        author={p.author}
-                        created_at={p.created_at}
-                    />
-                ))
-            }
-        </div>
+            <PostStory
+                posts={posts}
+                removePost={removePost}
+            />
+        </div>   
     );
 }
 
