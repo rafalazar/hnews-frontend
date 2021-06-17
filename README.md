@@ -1,4 +1,4 @@
-# Reign Challenge - Frontend Project
+# Hacker News - Frontend Project
 
   <p align="center">Frontend Application made entirely with React JS</p>
 
@@ -6,7 +6,7 @@
 
 ## Presettings
 
-- You must have the [Backend Application](https://gitlab.com/jordansalazar.975/backend-challenge) already running.
+- You must have the [Backend Application](https://github.com/rafalazar/hnews-backend) already running.
 
 ## Installation
 
@@ -23,7 +23,3 @@ $ npm start
 ## Considerations
 
 - The application is not responsive.
-
-## Stay in touch
-
-- Author - [Jordan Salazar](https://github.com/rafalazar)
